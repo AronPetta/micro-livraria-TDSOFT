@@ -5,7 +5,7 @@
     "main": "",
     "scripts": {
         "start-review": "nodemon services/review/index.js",
-        "start": "run-p start-proxy start-frontend start-controller start-shipping start-inventory start-review",
+        "start": "run-p start-proxy start-frontend start-controller start-inventory start-review",
         "start-controller": "nodemon services/controller/index.js",
         "start-shipping": "nodemon services/shipping/index.js",
         "start-inventory": "nodemon services/inventory/index.js",
